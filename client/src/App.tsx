@@ -2,7 +2,7 @@ export default function App() {
 
   return (
     <>
-		Discord Clone
+		<h1 className="bg-rose-600 text-bold">Merhaba TailwindCSS! </h1>
     </>
   )
 }
