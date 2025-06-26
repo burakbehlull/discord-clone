@@ -49,6 +49,11 @@ export interface CreateServerModalProps {
   closeModal: () => void;
 }
 
+export interface ProfileModalProps {
+  user: DM | { name: string; avatar: string };
+  close: () => void;
+}
+
 export interface EditProfileModalProps {
   avatar: string;
   username: string;

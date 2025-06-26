@@ -1,8 +1,9 @@
 import React from 'react';
-import { ProfileModalProps } from '@types'
+import { EditProfileModalProps } from '@types'
 
 
-const EditProfileModal: React.FC<ProfileModalProps> = ({ avatar, username, setUsername, close, save }) => {
+
+const EditProfileModal: React.FC<EditProfileModalProps> = ({ avatar, username, setUsername, close, save }) => {
   return (
     <div
       className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50"
