@@ -44,3 +44,7 @@ export interface ChatWindowProps {
   currentUser: { name: string; avatar: string };
   setProfileModalUser: (user: any) => void;
 }
+
+export interface CreateServerModalProps {
+  closeModal: () => void;
+}
