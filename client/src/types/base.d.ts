@@ -23,3 +23,16 @@ export interface ServerListProps {
   setActiveServerId: (id: string) => void;
   toggleModal: () => void;
 }
+
+export interface SidebarProps {
+  view: ViewMode;
+  activeServer?: Server | undefined;
+  dms: DM[];
+  activeDmId: string | null;
+  onDMClick: (id: string) => void;
+  currentUser: { name: string; avatar: string };
+  setView: (view: ViewMode) => void;
+  setProfileModalUser: (user: any) => void;
+  setEditProfileModal: (b: boolean) => void;
+  setEditedUsername: (name: string) => void;
+}
