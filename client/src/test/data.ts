@@ -14,3 +14,9 @@ export const dms: DM[] = [
       messages: ['Naber?'],
     },
 ];
+
+
+export const servers: Server[] = [
+    { id: '1', name: 'Ev Sunucusu', icon: '🏠', messages: ['Hoşgeldiniz!'] },
+    { id: '2', name: 'Oyun Sunucusu', icon: '🎮', messages: ['Merhaba oyuncular!'] },
+];

@@ -19,6 +19,7 @@ export default defineConfig({
       '~': way('src'),
       '@types': way('src/types/index'),
       '@data': way('src/test/data.ts'),
+      '@components': way('src/components/index.ts'),
     }
   },
 })

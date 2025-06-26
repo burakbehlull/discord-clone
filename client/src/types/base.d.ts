@@ -1,5 +1,15 @@
 import { ViewMode } from "@types"
 
+
+export type serverResponseProp = {
+	id: string,
+	name: string,
+    status: string,
+    avatar: string,
+    messages: string[],
+	
+}
 export type ChannelListProp = {
-	view: ViewMode
+	view: ViewMode,
+	activeServer: serverResponseProp
 }
