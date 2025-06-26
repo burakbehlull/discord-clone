@@ -36,3 +36,11 @@ export interface SidebarProps {
   setEditProfileModal: (b: boolean) => void;
   setEditedUsername: (name: string) => void;
 }
+
+export interface ChatWindowProps {
+  view: ViewMode;
+  activeServer?: Server;
+  activeDM?: DM;
+  currentUser: { name: string; avatar: string };
+  setProfileModalUser: (user: any) => void;
+}
