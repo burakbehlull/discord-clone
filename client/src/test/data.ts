@@ -20,3 +20,8 @@ export const servers: Server[] = [
     { id: '1', name: 'Ev Sunucusu', icon: '🏠', messages: ['Hoşgeldiniz!'] },
     { id: '2', name: 'Oyun Sunucusu', icon: '🎮', messages: ['Merhaba oyuncular!'] },
 ];
+
+export const currentUser = {
+  name: 'burak',
+  avatar: 'https://i.pravatar.cc/150?img=45',
+};
