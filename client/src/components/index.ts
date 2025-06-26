@@ -4,6 +4,7 @@ import Sidebar from "./Sidebar"
 import ChatWindow from "./ChatWindow"
 import CreateServerModal from "./CreateServerModal"
 import ProfileModal from "./ProfileModal"
+import EditProfileModal from "./EditProfileModal"
 
 export {
 	ChannelList,
@@ -11,5 +12,6 @@ export {
 	Sidebar,
 	ChatWindow,
 	CreateServerModal,
-	ProfileModal
+	ProfileModal,
+	EditProfileModal
 }

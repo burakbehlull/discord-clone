@@ -29,7 +29,7 @@ const App: React.FC = () => {
   return (
     <div className="flex h-screen w-screen bg-discord-300 text-discord-600">
       <ServerList
-        servers={mockServers}
+        servers={servers}
         view={view}
         activeServerId={activeServerId}
         setView={setView}
@@ -40,7 +40,7 @@ const App: React.FC = () => {
       <Sidebar
         view={view}
         activeServer={activeServer}
-        dms={mockDMs}
+        dms={dms}
         activeDmId={activeDmId}
         onDMClick={setActiveDmId}
         currentUser={currentUser}
