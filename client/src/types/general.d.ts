@@ -6,6 +6,7 @@ export type Server = {
   icon: string;
   messages: string[];
 };
+
 export type DM = {
   id: string;
   name: string;
