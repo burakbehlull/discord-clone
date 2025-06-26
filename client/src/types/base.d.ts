@@ -48,3 +48,11 @@ export interface ChatWindowProps {
 export interface CreateServerModalProps {
   closeModal: () => void;
 }
+
+export interface EditProfileModalProps {
+  avatar: string;
+  username: string;
+  setUsername: (name: string) => void;
+  close: () => void;
+  save: () => void;
+}
