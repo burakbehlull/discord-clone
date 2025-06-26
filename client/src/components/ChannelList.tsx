@@ -1,6 +1,7 @@
+import { dms } from "@data"
+import { ChannelListProp } from "@types"
 
-
-const ChannelList : React.FC<> = ({view, dms})=> {
+const ChannelList : React.FC<ChannelListProp> = ({view})=> {
 	return (
 		<div className="text-sm px-3 py-1 rounded hover:bg-discord-700 text-discord-600 hover:text-white cursor-pointer">
 			  # genel
